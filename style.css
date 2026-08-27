@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+}
+
+.celular {
+    width: 100%;
+    max-width: 390px;
+    margin: auto;
+    background-color: #0757f9;
+}
+
+.topo {
+    height: 45px;
+    padding: 12px 18px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicio {
+    height: 390px;
+    padding: 25px 20px;
+    color: white;
+    background-color: #1555ed;
+}
+
+.logo p {
+    font-size: 35px;
+}
+
+.inicio h1 {
+    margin-top: 190px;
+    font-size: 29px;
+}
+
+.inicio u {
+    text-decoration-color: #ffe500;
+    text-decoration-thickness: 5px;
+}
+
+.conta {
+    width: 92%;
+    height: 65px;
+    margin: -25px auto 0;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.foto {
+    width: 40px;
+    height: 40px;
+    background-color: #777;
+    margin-right: 10px;
+}
+
+.dados p:first-child {
+    font-size: 15px;
+}
+
+.dados p:last-child {
+    font-size: 11px;
+    color: #777;
+    margin-top: 4px;
+}
+
+.perfil {
+    margin-left: auto;
+    font-size: 25px;
+}
+
+.trocar {
+    color: white;
+    padding: 20px;
+}
+
+.beneficios {
+    color: white;
+    text-align: center;
+    padding: 35px 0 20px;
+}
+
+.beneficios p:first-child {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.beneficios p:last-child {
+    font-size: 25px;
+}
+
+.conteudo {
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    padding: 15px;
+}
+
+.noticia {
+    height: 100px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noticia p {
+    color: #2462e8;
+    font-size: 12px;
+}
+
+.noticia h3 {
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.balão {
+    font-size: 35px;
+}
+
+.atalhos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.atalho {
+    width: 25%;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 18px;
+}
+
+.atalho p:first-child {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #edf2ff;
+    color: #2360e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.atalho p:last-child {
+    margin-top: 7px;
+}
+
+.atendimentos h2 {
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.linha {
+    height: 42px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.linha p:last-child {
+    color: #2160e8;
+}
+
+.linha:last-child p:last-child {
+    color: #777;
+    font-size: 25px;
+}
